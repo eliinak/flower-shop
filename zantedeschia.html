@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="styles/styles1.css" rel="stylesheet">
+	<script src="script/script.js" defer></script>
+    <title>Bulbs shop</title>
+</head>
+
+<body>
+
+    <div class="home">
+        <div class="outpic">
+            <img src="images/zumbul1.jpg" width="1550" height="150">
+            <a href="index.html"><img src="images/logo2.png" width="200" height="150" class="pic"></a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Орхидеи</a></li>
+                <li><a href="index.html">Градински растения</a></li>
+                <li><a href="index.html">Стайни растения</a></li>
+                <li><a href="index.html">Семена</a></li>
+                <li><a href="index.html">Луковици</a></li>
+                <li><a href="index.html">Почви</a></li>
+                <li><a href="index.html">Саксии</a></li>
+            </ul>
+        </div>
+
+        <div class="bulbs">
+            <div id="bulbs"></div>
+            <div class="card">
+                <img src="images/bulbs1.jpg" alt="Bulbs" style="width:100%">
+                <div class="zoom"></div>
+                <h1>Кала смесица</h1>
+                <p class="price">69.99лв.</p>
+                <p>Кала Смесица 9 броя
+                    <br>Цвете с респектираща красота
+                    <br> Достига 40-59 см</br>
+                </p>
+                <a href="#downto">
+                    <p><button>Добавете коментар</button></p><a>
+                        <a href="#down">
+                            <p><button>Направете поръчка</button></p><a>
+            </div>
+            <div class="info" id="wrapper">
+                <h1>Кала смесица луковици</h1>
+                <p>Кала - цвете с респектираща красота, което не е толкова капризно за отглеждане
+                    <br>Всяко стебло може да достигне от три до десет сантиметра в зависимост от сезоните.
+                    <br>Хубаво е да изберете място където има еднакво слънчево огряване и сянка
+                    <br>Височината на растението: Достига 40-59 см
+                    <br>Семейство: Кала</br>
+                </p>
+                <h1>Грижа</h1>
+                <p>Цъфти: Юни, Юли
+                    <br>Засаждането е напролет, а цъфтежът е през лятото.
+                    <br>Важно е да се знае, че оптималната температура за отглеждане на Кала за да са големи цветовете й
+                    е 18-19 градуса
+                    <br>Прегряването на грудките е фатално и може да лиши растението от цветове.
+                    <br>Това растение процъфтява в горещо и влажно време.
+                    <br>Въпреки, че обичат слънцето, калите имат нужда от хладина за грудките си.</br>
+                <p>
+                <h1>Ако закупите артикула</h1>
+                <p>Гарантирано качество
+                    <br>Произведено в България</br>
+                </p>
+            </div>
+        </div>
+        <div class="row" id="down">
+            <div class="col-75">
+                <div class="container">
+                    <div class="row" id="wrapper">
+                        <div class="col-50">
+                            <h3>Направете поръчка до адрес</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Име и Фамилия</label>
+                            <input type="text" class="rowtype" id="fname" name="firstname" placeholder="Вашето име ">
+                            <label for="email"><i class="fa fa-envelope"></i> E-mail</label>
+                            <input type="text" class="rowtype" id="email" name="email" placeholder="Вашият имейл ">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Адрес</label>
+                            <input type="text" class="rowtype" id="adr" name="address" placeholder="Вашият адрес ">
+                            <label for="city"><i class="fa fa-institution"></i>Град</label>
+                            <input type="text" class="rowtype" id="city" name="city" placeholder="Населено място">
+                            <p><button onclick="myFunction()">Поръчай</button></p>
+							<p id="demo"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comments" id="downto">
+                    <h3>Оставете ни коментар</h3>
+					<label for="fname"><i class="fa fa-user"></i> Име и Фамилия</label>
+                    <input type="text" class="rowtype" id="name" name="firstname" placeholder="Вашето име ">
+                    <form>
+                        <textarea class="rowcom" id="rowcom" placeholder="Напишете своя коментар ..."></textarea>
+                        <p><button onclick="commentf()">Коментирай</button></p>
+                    </form>
+                </div>
+				<p id="errorcomm"></p>
+                <div id="comm" class="comm"></div>
+            </div>
+        </div>
+        <div class="CardSite">
+            <h2> Име </h2>
+            <p>Цветарски магазин YourGarden
+            <p>
+            <h2> Адрес </h2>
+            <p>гр.София, жк. Студентски град</p>
+            <h2> Контакти </h2>
+            <p>Елина Календерова +359 896 766 32*</p>
+        </div>
+    </div>
+</body>
+
+</html>

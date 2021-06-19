@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="styles/styles1.css" rel="stylesheet">
+	<script src="script/script.js" defer></script>
+    <title>House shop</title>
+</head>
+
+<body>
+
+    <div class="home">
+        <div class="outpic">
+            <img src="images/zumbul1.jpg" width="1550" height="150">
+            <a href="index.html"><img src="images/logo2.png" width="200" height="150" class="pic"></a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Орхидеи</a></li>
+                <li><a href="index.html">Градински растения</a></li>
+                <li><a href="index.html">Стайни растения</a></li>
+                <li><a href="index.html">Семена</a></li>
+                <li><a href="index.html">Луковици</a></li>
+                <li><a href="index.html">Почви</a></li>
+                <li><a href="index.html">Саксии</a></li>
+            </ul>
+        </div>
+
+        <div class="houseplants">
+            <div id="houseplants"></div>
+            <div class="card">
+                <img src="images/houseplant2.jpg" alt="Houseplants" style="width:100%">
+                <div class="zoom"></div>
+                <h1>Венерина</h1>
+                <p class="price">9.99лв.</p>
+                <p>Венерина Мухоловка
+                    <br>ВИСОЧИНА : 10.00 см
+                    <br>РАЗМЕР : САКСИЯ Ф 8.5 СМ</br>
+                </p>
+                <a href="#downto">
+                    <p><button>Добавете коментар</button></p><a>
+                        <a href="#down">
+                            <p><button>Направете поръчка</button></p><a>
+            </div>
+            <div class="info" id="wrapper">
+                <h1>Стайно растение Венерина</h1>
+                <p>Венерината мухоловка е малко растение, чиято структура може да бъде описана като розетка от четири до
+                    седем листа
+                    <br>Всяко стебло може да достигне от три до десет сантиметра в зависимост от сезоните.
+                    <br>Добре развитите екземпляри венерина мухоловка могат да преживеят временно затопляне и засушаване
+                    без растението да се увреди.
+                    <br> Венерината мухоловка е член на малка група растения, способни на бързо движение на листата при
+                    стимулация
+                    <br> на чувствителните им влакънца. </br>
+                </p>
+                <h1>Грижа</h1>
+                <p>Венерината мухоловка се нуждае от ярка, но не пряка светлина
+                    <br>Трябва да се предпазва от директните слънчеви лъчи и сухия въздух.
+                    <br>Водата трябва да е мека – дъждовна, преварена или в краен случай дестилирана.
+                    <br>Предпочита умерените температури, не по-високи от 22 °C
+                    <br>Той няма особени нужди и расте на практика във всички почви, дори в най-бедните, каменисти и
+                    сухи, стига да не са прекалено варовити.
+                    <br>Не дразнете без плячка капана, най-добре я оставете сама да ловува!</br>
+                <p>
+                <h1>Ако закупите артикула</h1>
+                <p>Растението идва със саксия 8.5
+                    <br>Височината на растението е 10см</br>
+                </p>
+            </div>
+        </div>
+        <div class="row" id="down">
+            <div class="col-75">
+                <div class="container">
+                    <div class="row" id="wrapper">
+                        <div class="col-50">
+                            <h3>Направете поръчка до адрес</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Име и Фамилия</label>
+                            <input type="text" class="rowtype" id="fname" name="firstname" placeholder="Вашето име ">
+                            <label for="email"><i class="fa fa-envelope"></i> E-mail</label>
+                            <input type="text" class="rowtype" id="email" name="email" placeholder="Вашият имейл ">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Адрес</label>
+                            <input type="text" class="rowtype" id="adr" name="address" placeholder="Вашият адрес ">
+                            <label for="city"><i class="fa fa-institution"></i>Град</label>
+                            <input type="text" class="rowtype" id="city" name="city" placeholder="Населено място">
+                            <p><button onclick="myFunction()">Поръчай</button></p>
+							<p id="demo"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comments" id="downto">
+                    <h3>Оставете ни коментар</h3>
+					<label for="fname"><i class="fa fa-user"></i> Име и Фамилия</label>
+                    <input type="text" class="rowtype" id="name" name="firstname" placeholder="Вашето име ">
+                    <form>
+                        <textarea class="rowcom" id="rowcom" placeholder="Напишете своя коментар ..."></textarea>
+                        <p><button onclick="commentf()">Коментирай</button></p>
+                    </form>
+                </div>
+				<p id="errorcomm"></p>
+                <div id="comm" class="comm"></div>
+            </div>
+        </div>
+        <div class="CardSite">
+            <h2> Име </h2>
+            <p>Цветарски магазин YourGarden
+            <p>
+            <h2> Адрес </h2>
+            <p>гр.София, жк. Студентски град</p>
+            <h2> Контакти </h2>
+            <p>Елина Календерова +359 896 766 32*</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="styles/styles1.css" rel="stylesheet">
+    <script src="script/script.js" defer></script>
+    <title>Orchid shop</title>
+</head>
+
+<body>
+
+    <div class="home">
+        <div class="outpic">
+            <img src="images/zumbul1.jpg" width="1550" height="150">
+            <a href="index.html"><img src="images/logo2.png" width="200" height="150" class="pic"></a>
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Орхидеи</a></li>
+                <li><a href="index.html">Градински растения</a></li>
+                <li><a href="index.html">Стайни растения</a></li>
+                <li><a href="index.html">Семена</a></li>
+                <li><a href="index.html">Луковици</a></li>
+                <li><a href="index.html">Почви</a></li>
+                <li><a href="index.html">Саксии</a></li>
+            </ul>
+        </div>
+        <div class="orchid">
+            <div id="orchid"></div>
+            <div class="card">
+                <img src="images/162267535_925943794834988_1511221803731503107_n-550x550h.jpg" alt="Orchid"
+                    style="width:100%">
+                <div class="zoom"></div>
+                <h1>Орхидея </h1>
+                <p class="price">25.00лв.</p>
+                <p>Орхидея Мултифлора Фаленопсис
+                    <br>Прекрасна орхидея с наситени цветове</br>
+                    Височина около 50-60см
+                </p>
+                <a href="#downto" <p><button>Добавете коментар</button></p><a>
+                        <a href="#down">
+                            <p><button>Направете поръчка</button></p><a>
+            </div>
+            <div class="info" id="wrapper">
+                <h1>Орхидея Мултифлора Фаленопсис</h1>
+                <p>Мултифлора - означава "многоцветна".
+                    <br>У дома мултифлората расте малка, около 50 см. Листата са месести, с овална форма,
+                    <br>израстват до 30 см на брой от 4-8 броя, понякога има до 10 листа в изхода.
+                    <br>Щом се появи ново листо, един от старите умира. Издава 3-6 издънки-дръжки.
+                    <br>Те са гъвкави и крехки, така че се нуждаят от допълнителна поддръжка</br>
+                </p>
+                <h1>Грижа</h1>
+                <p>Преди цъфтежа: По това време трябва особено да следите температурата на въздуха - 27-28°C
+                    <br>през деня и лек спад до 22-25 ° C през нощта. Орхидеята обича светлината, затова е необходимо
+                    <br>да се осигури допълнително осветление, за да се „добави“ дневна светлина.
+                    <br> След цъфтежа: След като орхидеята избледнее, по-добре е да я поставите на по-хладно място.
+                    <br> Прохладата ще стимулира новия цъфтеж. След около два месеца орхидеята може да бъде поставена
+                    <br>на първоначалното си място. Тук поливането трябва да се намали.</br>
+                <p>
+                <h1>Ако закупите артикула</h1>
+                <p>Орхидеята е висока около 50-60см и е готова да бъде поставена на светъл прозорец.
+                    <br>Саксията, с която се продава е безцветна транспортна саксия, която е хубаво да бъде
+                    <br>смената и цветето да бъде пресадено, след като приключи цъфтежът му.</br>
+                </p>
+            </div>
+        </div>
+        <div class="row" id="down">
+            <div class="col-75">
+                <div class="container">
+                    <div class="row" id="wrapper">
+                        <div class="col-50">
+                            <h3>Направете поръчка до адрес</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Име и Фамилия</label>
+                            <input type="text" class="rowtype" id="fname" name="firstname" placeholder="Вашето име ">
+                            <label for="email"><i class="fa fa-envelope"></i> E-mail</label>
+                            <input type="text" class="rowtype" id="email" name="email" placeholder="Вашият имейл ">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Адрес</label>
+                            <input type="text" class="rowtype" id="adr" name="address" placeholder="Вашият адрес ">
+                            <label for="city"><i class="fa fa-institution"></i>Град</label>
+                            <input type="text" class="rowtype" id="city" name="city" placeholder="Населено място">
+                            <p><button onclick="myFunction()">Поръчай</button></p>
+                            <p id="demo"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="comments" id="downto">
+                    <h3>Оставете ни коментар</h3>
+                    <label for="fname"><i class="fa fa-user"></i> Име и Фамилия</label>
+                    <input type="text" class="rowtype" id="name" name="firstname" placeholder="Вашето име ">
+                    <form>
+                        <textarea class="rowcom" id="rowcom" placeholder="Напишете своя коментар ..."></textarea>
+                        <p><button onclick="commentf()">Коментирай</button></p>
+                    </form>
+                </div>
+                <p id="errorcomm"></p>
+                <div id="comm" class="comm"></div>
+            </div>
+        </div>
+        <div class="CardSite">
+            <h2> Име </h2>
+            <p>Цветарски магазин YourGarden
+            <p>
+            <h2> Адрес </h2>
+            <p>гр.София, жк. Студентски град</p>
+            <h2> Контакти </h2>
+            <p>Елина Календерова +359 896 766 32*</p>
+        </div>
+    </div>
+</body>
+
+</html>

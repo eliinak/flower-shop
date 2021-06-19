@@ -1,0 +1,195 @@
+ul {
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: mediumorchid;
+  text-align: center;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 95px;
+}
+li a:hover {
+background-color: purple;
+}
+.home {
+	background-color: lavender;
+	width: 1550px;
+    height: 2100px;
+	position: absolute;
+}
+.orchid {
+  display: flex;
+}
+.garden {
+  display: flex;
+}
+.houseplants {
+ display: flex;
+}
+.seeds {
+ display: flex;
+}
+.bulbs {
+ display: flex;
+}
+.card img {
+ max-height: 300px;
+ max-width: 350px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+  font-family: arial;
+  color: purple;
+  background-color: thistle;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  
+}
+.card img:hover {
+  transform: scale(1.5); 
+}
+
+.price {
+  color: purple;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  background-color: mediumorchid;
+}
+.card button:hover {
+  background-color: purple;
+}
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+}
+.col-50
+ {
+  padding: 0 16px;
+  width: 250;
+}
+.row {
+    flex-direction: column-reverse;
+	display: flex;
+	width: 500px;
+	margin-top: 30px;
+ }
+
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 75%;
+  
+}
+.col-75 {
+  padding: 0 16px;
+  
+}
+.container {
+  background-color: thistle;
+  padding: 5px 20px 15px 20px;
+  border: 5px purple;
+  border-radius: 10px;
+}
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 60px;
+  
+}
+.row button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  background-color: mediumorchid;
+}
+.row button:hover {
+  background-color: purple;
+}
+.outpic {
+  position: relative;
+  display: inline;
+}
+.pic {
+  position: absolute;
+  right: 0;
+  margin-right: 580px;
+  width: 500px;
+  
+}
+.CardSite {
+ text-align: center;
+}
+.rowtype {
+ width: 500px;
+ height: 25px;
+}
+.comments {
+ align-items: center;
+ flex-direction: column-reverse;
+ background-color: thistle;
+ padding: 5px 20px 15px 20px;
+ border: 5px purple;
+ border-radius: 10px;
+ margin-top: 10px;
+}
+.rowcom{
+  width: 501px;
+  height: 78px;
+  margin-top:5px;
+}
+
+.comm {
+    border: solid 3px;
+    float: left;
+    width: 602px;
+    height: auto;
+    margin-left: 2px;
+    margin-top: 10px;
+	border-color: mediumorchid;
+	border-radius: 10px;
+	background-color: thistle;
+
+}
+
+

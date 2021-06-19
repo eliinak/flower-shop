@@ -1,0 +1,114 @@
+ul {
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: mediumorchid;
+  text-align: center;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 95px;
+}
+li a:hover {
+background-color: purple;
+}
+.home {
+	background-color: lavender;
+	width: 1550px;
+    height: 5500px;
+	position: absolute;
+}
+.orchid {
+  display: flex;
+  margin-left: 100px;
+}
+.heading {
+  position: relative;
+  text-align: center;  
+}
+.card img {
+ max-height: 300px;
+ max-width: 350px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  color: purple;
+  background-color: thistle;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin: 10px;
+}
+.card img:hover {
+  transform: scale(1.5); 
+}
+
+.price {
+  color: purple;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  background-color: mediumorchid;
+}
+.card button:hover {
+  background-color: purple;
+}
+.garden {
+  display: flex;
+  margin-left: 100px;
+}
+.houseplants {
+  display: flex;
+  margin-left: 100px;
+}
+.seeds {
+ display: flex;
+ margin-left: 100px;
+}
+.bulbs {
+ display: flex;
+ margin-left: 100px;
+}
+.soils {
+ display: flex;
+ margin-left: 100px;
+}
+.pots {
+ display: flex;
+ margin-left: 100px;
+}
+.CardSite {
+ text-align: center;
+}
+.outpic {
+  position: relative;
+  display: inline;
+}
+.pic {
+  position: absolute;
+  right: 0;
+  margin-right: 535px;
+  width: 500px;
+  
+}
